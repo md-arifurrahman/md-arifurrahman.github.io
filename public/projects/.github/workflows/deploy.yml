@@ -1,4 +1,4 @@
-name: Deploy Portfolio to GitHub Pages
+name: Deploy Portfolio
 
 on:
   push:
@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -39,7 +39,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload website
+      - name: Upload build
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
@@ -53,6 +53,6 @@ jobs:
     needs: build
 
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

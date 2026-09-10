@@ -5,7 +5,7 @@ const projects = [
     title: "3D LULC Map",
     description:
       "A 3D geospatial visualization combining terrain and land-use/land-cover data to reveal spatial patterns, elevation and landscape structure.",
-    image: "/projects/HillshadeProject.png",
+    image: "/projects/HillshadeProject.webp",
     tags: ["GEE", "ArcGIS Pro"],
     link: "https://www.linkedin.com/posts/md-arifur-rahman-9a0305424_gis-remotesensing-geospatial-activity-7498730025114853376-dsZ0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGuLS0gBOB9z33wO-IufvhfIcrCyjlhODvI",
     github: "#",
@@ -14,7 +14,7 @@ const projects = [
     title: "Urban Morphology Map",
     description:
       "A spatial analysis of urban form and built-up patterns, illustrating building distribution, road networks, density and the structural character of the city.",
-    image: "/projects/Morpho.png",
+    image: "/projects/Morpho.webp",
     tags: ["Python", "GeoPanda", "OpenstreetMap", "GEE", "ArcGIS Pro"],
     link: "https://www.linkedin.com/posts/md-arifur-rahman-9a0305424_python-geospatialpython-gis-activity-7501974042975940608-eyhx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGuLS0gBOB9z33wO-IufvhfIcrCyjlhODvI",
     github: "#",
@@ -23,7 +23,7 @@ const projects = [
     title: "Fllod Inundation Map",
     description:
       "A before-and-after satellite-based flood assessment identifying inundated areas, existing water bodies and newly affected zones in Satkania, Chattogram.",
-    image: "/projects/FIM.png",
+    image: "/projects/FIM.webp",
     tags: ["Python", "GeoPanda", "OpenstreetMap", "GEE", "ArcGIS Pro"],
     link: "https://www.linkedin.com/posts/md-arifur-rahman-9a0305424_my-first-python-based-geospatial-project-activity-7486817526245437440-f01G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGuLS0gBOB9z33wO-IufvhfIcrCyjlhODvI",
     github: "#",

@@ -94,7 +94,7 @@ export const Contact = () => {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 relative z-10 w-full min-w-0">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
@@ -112,8 +112,8 @@ export const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto w-full min-w-0">
+          <div className="glass p-5 sm:p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300 w-full min-w-0">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
@@ -210,8 +210,8 @@ export const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6 animate-fade-in animation-delay-400">
-            <div className="glass rounded-3xl p-8">
+          <div className="space-y-6 animate-fade-in animation-delay-400 w-full min-w-0">
+            <div className="glass rounded-3xl p-5 sm:p-8 w-full min-w-0">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
               </h3>
@@ -220,16 +220,17 @@ export const Contact = () => {
                   <a
                     key={i}
                     href={item.href}
-                    className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
+                    className="flex items-center gap-4 p-3 sm:p-4 rounded-xl hover:bg-surface transition-colors group w-full min-w-0"
                   >
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <div className="w-12 h-12 flex-shrink-0 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <item.icon className="w-5 h-5 text-primary" />
                     </div>
-                    <div>
+                    <div className="min-w-0 flex-1">
                       <div className="text-sm text-muted-foreground">
                         {item.label}
                       </div>
-                      <div className="font-medium">{item.value}</div>
+                      <div  className="font-medium"
+                            style={{ overflowWrap: "anywhere" }}>{item.value}</div>
                     </div>
                   </a>
                 ))}
@@ -237,7 +238,7 @@ export const Contact = () => {
             </div>
 
             {/* Availability Card */}
-            <div className="glass rounded-3xl p-8 border border-primary/30">
+            <div className="glass rounded-3xl p-5 sm:p-8 border border-primary/30 w-full min-w-0">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                 <span className="font-medium">Currently Available</span>

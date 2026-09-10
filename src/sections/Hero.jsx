@@ -77,7 +77,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg1.png"
+          src="/hero-bg1.webp"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -235,7 +235,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/arif-pic.png"
+                  src="/arif-pic.webp"
                   alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />

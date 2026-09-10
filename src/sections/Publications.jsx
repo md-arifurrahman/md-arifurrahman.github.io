@@ -6,7 +6,7 @@ const publications = [
     title: "ISEE 2026",
     description:
       "Forecasting Construction-Induced Thermal Anomalies and Land Conversion in Ishwardi Using Agent-Based Modelling and Multitemporal Machine Learning Classification",
-    image: "/Publications/ML.png",
+    image: "/Publications/ML.webp",
     tags: ["International Conference Paper"],
     link: "https://www.researchgate.net/publication/412829287_FORECASTING_CONSTRUCTION-INDUCED_THERMAL_ANOMALIES_AND_LAND_CONVERSION_IN_ISHWARDI_USING_AGENT-BASED_MODELLING_AND_MULTITEMPORAL_MACHINE_LEARNING_CLASSIFICATION",
     pdf: "#",
@@ -15,7 +15,7 @@ const publications = [
     title: "Rsearch Square",
     description:
       "Assessing agrarian moisture sensitivity in the Barind Tract through a principal component analysis-weighted geospatial framework",
-    image: "/Publications/RSQ.png",
+    image: "/Publications/RSQ.webp",
     tags: ["Preprint"],
     link: "https://www.researchgate.net/publication/413799708_Assessing_agrarian_moisture_sensitivity_in_the_Barind_Tract_through_a_principal_component_analysis-weighted_geospatial_framework",
     pdf: "#",
